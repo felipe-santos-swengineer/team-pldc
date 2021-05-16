@@ -22,10 +22,13 @@ import elyneker from "assets/img/faces/elyneker.jpg";
 import naelly from "assets/img/faces/naelly.jpg";
 import henrique from "assets/img/faces/henrique.png";
 
+import EmailIcon from '@material-ui/icons/Email';
+import { grayColor } from "assets/jss/material-kit-react";
+
 //Not convencinal call methods.. but react's crying today 
 
 function call_pablo(){
-  alert("Contate-me pelo número: +55 84 99619-2035");
+  alert("Contate-me pelo email: pablo.soares@ufc.br");
 }
 
 
@@ -93,7 +96,7 @@ export default function TeamSection() {
                   color="transparent"
                   className={classes.margin5}
                 >
-                  <i className={classes.socials + " fab fa-whatsapp"} />
+                  <EmailIcon style={{color: grayColor}}></EmailIcon>
                 </Button>
                 <Button
                   justIcon

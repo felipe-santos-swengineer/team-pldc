@@ -38,8 +38,7 @@
     "typescript": "3.9.3"
   },
   "scripts": {
-    "dev": "react-scripts start",
-    "start": "serve -s build",
+    "start": "react-scripts start",
     "heroku-postbuild": "npm run build",
     "build": "react-scripts build && gulp licenses",
     "test": "react-scripts test --env=jsdom",
